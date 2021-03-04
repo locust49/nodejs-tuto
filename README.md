@@ -9,4 +9,5 @@
 easy huh ?
 > node -v
 
-to get the version. So, i did it and got the 14.3.0 version yay !
+to get the node version.
+So, i did it and got the 14.3.0 version yay !
