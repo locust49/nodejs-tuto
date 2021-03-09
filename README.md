@@ -22,15 +22,18 @@ Check the [server.js](https://github.com/locust49/nodejs-tuto/blob/main/VID%2304
 it's aint fun if we always get the same page whatever the url is right ?
 ===> [server.js](https://github.com/locust49/nodejs-tuto/blob/main/VID%2304/server.js) again..
 # Status Code
+Status code | Definition				|
 -----------------------------------------
-|	200 | OK							|
-|	301 | Resource moved				|
-|	404 | Not found						|
-|	500 | Internal server error			|
-|---------------------------------------|
+|	200 	| OK						|
+|	301 	| Resource moved			|
+|	404 	| Not found					|
+|	500 	| Internal server error		|
+
+Status range	| Definition			|
+---------------------------------------
 |	100 Range | informational responses	|
 |	200 Range | success codes			|
 |	300 Range | codes for redirects		|
 |	400 Range | user or client error	|
 |	500 Range | server error			|
-|---------------------------------------|
+---------------------------------------
