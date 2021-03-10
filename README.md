@@ -36,3 +36,10 @@ Status range	| Definition				|
 |	300 Range 	| codes for redirects		|
 |	400 Range 	| user or client error		|
 |	500 Range 	| server error				|
+
+# Installing packages
+[Here](https://www.npmjs.com/) we can search for whatever package we need
+I installed **nodemon** because it helps us reload the server without *Ctrl-C* it each time we change our file and run it again
+
+A [package.json](https://github.com/locust49/nodejs-tuto/blob/main/package.json) file is needed if we're using 3rd party packages which we definitely going to use, soo.. let's run this command :
+> npm init
