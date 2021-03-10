@@ -1,7 +1,7 @@
 # nodejs-tuto
 ###### Using Netninja playlist : [Node.js Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU)
 
-# Install npm on windows:
+# Install nodeJS on windows:
 - nodejs.org/en
 - download
 - click install 
