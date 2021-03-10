@@ -44,4 +44,4 @@ I installed **nodemon** because it helps us reload the server without *Ctrl-C* i
 A [package.json](https://github.com/locust49/nodejs-tuto/blob/main/package.json) file is needed if we're using 3rd party packages which we definitely going to use, soo.. let's run this command :
 > npm init
 
-*So yea, i installed a github extension on Vscode (id : codezombiech.gitignore) so that it helps me ignore some ~~people~~ euh.. directories and/or files since i'm new to nodejs and i don't really know what should i keep and not..*
+*So yea, i installed a gitignore extension on Vscode (id : codezombiech.gitignore) so that it helps me ignore some ~~people~~ euh.. directories and/or files since i'm new to nodejs and i don't really know what should i keep and not..*
