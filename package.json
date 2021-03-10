@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-tuto",
+  "version": "1.0.0",
+  "description": "# Install npm on windows: - nodejs.org/en - download - click install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locust49/nodejs-tuto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/locust49/nodejs-tuto/issues"
+  },
+  "homepage": "https://github.com/locust49/nodejs-tuto#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
