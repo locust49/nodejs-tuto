@@ -1,14 +1,24 @@
 const http = require('http');
 const fs = require('fs');
+const _ = require('lodash');
 
 const server = http.createServer((request, response) => {
-	// request is a huuuge object, let's log some of its attributes..
-	console.log(request.url, request.method);
+	
+	//loadash
+	const num = _.random(0, 24);
+	console.log(num);
+
+	const greet = _.once(() => {
+		console.log('Run only once')
+	});
+
+	greet(); // will run
+	greet(); // will !run
 
 	// set header content type
 	response.setHeader('Content-Type', 'text/html');
 
-	let path = './views/';
+	let path = '../VID#04/views/';
 	switch(request.url)
 	{
 		case '/':
