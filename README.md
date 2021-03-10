@@ -46,6 +46,6 @@ A [package.json](https://github.com/locust49/nodejs-tuto/blob/main/package.json)
 
 *So yea, i installed a gitignore extension on Vscode (id : codezombiech.gitignore) so that it helps me ignore some ~~people~~ euh.. directories and/or files since i'm new to nodejs and i don't really know what should i keep and not..*
 
-Impressive, i've just knew that i don't have to push a *node_modules* folder, but it wouldn't run without it.
+Impressive, i've just knew that i don't have to push a *node_modules* folder, but the server wouldn't load without it.
 To do so, we need to run :
 > npm install
