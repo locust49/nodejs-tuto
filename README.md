@@ -63,4 +63,5 @@ To inject dynamic data to our html, we use View/Template Engines
 
 > [pug](https://pugjs.org/api/getting-started.html)
 
-> [ejs](https://ejs.co/)  **The chosen one** => npm install ejs
+> [ejs](https://ejs.co/)  **_The chosen one_** 
+> npm install ejs
