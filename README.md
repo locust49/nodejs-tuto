@@ -54,3 +54,11 @@ To do so, we need to run :
 > npm install express --save
 
 ###### Wait, wym by I don't need to do all what I've done since VID00 ... ?
+
+# View Engines
+
+To inject dynamic data to our html, we use View/Template Engines
+#### Examples: 
+> [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+> [pug](https://pugjs.org/api/getting-started.html)
+> [ejs](https://ejs.co/)  **The chosen one** => npm install ejs
