@@ -49,3 +49,8 @@ A [package.json](https://github.com/locust49/nodejs-tuto/blob/main/package.json)
 Impressive, i've just knew that i don't have to push a *node_modules* folder, but the server wouldn't load without it.
 To do so, we need to run :
 > npm install
+
+# Express
+> npm install express --save
+
+###### Wait, wym by I don't need to do all what I've done since VID00 ... ?
