@@ -60,5 +60,7 @@ To do so, we need to run :
 To inject dynamic data to our html, we use View/Template Engines
 #### Examples: 
 > [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+
 > [pug](https://pugjs.org/api/getting-started.html)
+
 > [ejs](https://ejs.co/)  **The chosen one** => npm install ejs
