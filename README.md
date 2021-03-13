@@ -65,3 +65,5 @@ To inject dynamic data to our html, we use View/Template Engines
 
 > [ejs](https://ejs.co/)  **_The chosen one_** 
 > npm install ejs
+
+###### <% This syntaxe is so weird %>
