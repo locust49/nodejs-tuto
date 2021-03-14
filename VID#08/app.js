@@ -1,5 +1,6 @@
 const { request } = require('express');
 const express = require('express');
+const morgan = require('morgan');
 
 const app = express();
 
@@ -9,21 +10,7 @@ app.set('views', '../VID#07/views');
 
 app.listen(3000);
 
-app.use((request, response, next) => {
-	console.log('new request');
-	console.log('host: ', request.hostname);
-	console.log('path: ', request.path);
-	console.log('method: ', request.method);
-	console.log('I\'m still stuck here, idk what to do next...');
-	next();
-	//console.log('Nah, nvm, i just got nexted');
-});
-
-app.use((request, response, next) => {
-	console.log('Hi, i\'m in the next middlewar');
-	next();
-	//console.log('Nah, nvm, i just got nexted');
-});
+app.use(morgan('dev'));
 
 app.get('/', (request, response) => {
 	const blogs = [
