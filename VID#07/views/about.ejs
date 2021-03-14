@@ -1,24 +1,9 @@
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>into the tide's letters | <%= title %> </title>
-</head>
-
+	<%- include('./partials/head.ejs') %>
 <body>
 
 	<% const name = 'sou3ada' %>
-	<nav>
-		<div class="site-title">
-			<a href="/"><h1>into the tide's letters</h1></a>
-			<p>Meeee website</p>
-		</div>
-		<ul>
-			<li><a href="/"> Blogs</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/blogs/create">New Blog</a></li>
-		</ul>
-	</nav>
+	<%- include('./partials/nav.ejs') %>
 
 	<div class="about content">
 		<h2>About us</h2>
@@ -28,4 +13,6 @@
 	</div>
 
 </body>
+
+<%- include('./partials/footer.ejs') %>
 </html>
