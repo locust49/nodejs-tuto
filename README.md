@@ -66,4 +66,13 @@ To inject dynamic data to our html, we use View/Template Engines
 > [ejs](https://ejs.co/)  **_The chosen one_** 
 > npm install ejs
 
-###### <% This syntaxe is so weird %>
+###### <% This syntax is so weird %>
+
+# Middleware
+It means anything (*any code obviously*) that happens between the Request and Response in the server.
+#### Examples:
+- Logger middleware to log details of every request. [morgan](https://www.npmjs.com/package/morgan)
+- Authentication check middleware for protected routes.
+- Middleware to parse JSON data from requests.
+- Return 404 pages.
+- ...
