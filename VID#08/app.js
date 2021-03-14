@@ -6,10 +6,11 @@ const app = express();
 
 // register view engine
 app.set('view engine', 'ejs');
-app.set('views', '../VID#07/views');
 
 app.listen(3000);
 
+//middleware & static files
+app.use(express.static('public'));
 app.use(morgan('dev'));
 
 app.get('/', (request, response) => {
