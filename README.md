@@ -76,3 +76,10 @@ It means anything (*any code obviously*) that happens between the Request and Re
 - Middleware to parse JSON data from requests.
 - Return 404 pages.
 - ...
+
+# MongoDB
+## MongoDB Atlas
+The most innovative cloud database service on the market, [...](https://www.mongodb.com/cloud/atlas)
+
+To connect to the db, we'll use [Mongoose](https://mongoosejs.com/) *(= an ODM library)*
+> npm install mongoose
