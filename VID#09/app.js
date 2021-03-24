@@ -19,6 +19,7 @@ app.set('view engine', 'ejs');
 
 //middleware & static files
 app.use(express.static('public'));
+app.use(express.urlencoded({extended: true})) // takes the encoded data and parses that into an object
 app.use(morgan('dev'));
 
 // app.get('/add-blog', (request, response) => {
@@ -44,6 +45,14 @@ app.use(morgan('dev'));
 // 	.then(result => response.send(result))
 // 	.catch(error => console.log(error));
 // });
+
+app.post('/blogs', (request, response) => {
+	const blog = new Blog(request.body);
+
+	blog.save()
+		.then(result => response.redirect('/blogs'))
+		.catch(error => console.log(error));
+});
 
 app.get('/blogs', (request, response) => {
 	Blog.find().sort({createdAt: -1})
