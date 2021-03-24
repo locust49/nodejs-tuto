@@ -54,6 +54,17 @@ app.post('/blogs', (request, response) => {
 		.catch(error => console.log(error));
 });
 
+app.get('/blogs/create', (request, response) => {
+	response.render('create', { title: 'Create' });
+})
+
+app.get('/blogs/:id', (request, response) => {
+	const id = request.params.id;
+	Blog.findById(id)
+		.then(result => response.render('details', { blog: result, title: 'Blog details'}))
+		.catch(error => console.log(error));
+});
+
 app.get('/blogs', (request, response) => {
 	Blog.find().sort({createdAt: -1})
 		.then(result => {
@@ -70,9 +81,6 @@ app.get('/about', (request, response) => {
 	response.render('about', { title: 'About' });
 });
 
-app.get('/blogs/create', (request, response) => {
-	response.render('create', { title: 'Create' });
-})
 
 app.use((request, response) => {
 	response.status(404).render('404', { title: '404' });
