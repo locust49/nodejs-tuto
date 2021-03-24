@@ -81,5 +81,13 @@ It means anything (*any code obviously*) that happens between the Request and Re
 ## MongoDB Atlas
 The most innovative cloud database service on the market, [...](https://www.mongodb.com/cloud/atlas)
 
+## Mongoose
 To connect to the db, we'll use [Mongoose](https://mongoosejs.com/) *(= an ODM library)*
-> npm install mongoose
+` npm install mongoose `
+
+#### 
+
+#### 
+Mongoose Schema 	   | Mongoose Model		   |	
+-----------------------|-----------------------|
+| Define the structure of the document | provides an interface which communicate with a db collection|
