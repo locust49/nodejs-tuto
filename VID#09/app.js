@@ -58,6 +58,13 @@ app.get('/blogs/create', (request, response) => {
 	response.render('create', { title: 'Create' });
 })
 
+app.delete('/blogs/:id', (request, response) => {
+	const id = request.params.id;
+	Blog.findByIdAndDelete(id)
+		.then(result => response.json({ redirect: '/blogs'}))
+		.catch(error => console.log(error));
+});
+
 app.get('/blogs/:id', (request, response) => {
 	const id = request.params.id;
 	Blog.findById(id)
