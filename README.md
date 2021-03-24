@@ -78,16 +78,27 @@ It means anything (*any code obviously*) that happens between the Request and Re
 - ...
 
 # MongoDB
-## MongoDB Atlas
+#### MongoDB Atlas
 The most innovative cloud database service on the market, [...](https://www.mongodb.com/cloud/atlas)
 
-## Mongoose
+#### Mongoose
 To connect to the db, we'll use [Mongoose](https://mongoosejs.com/) *(= an ODM library)*
 ` npm install mongoose `
 
-#### 
 
-#### 
 Mongoose Schema 	   | Mongoose Model		   |	
 -----------------------|-----------------------|
 | Define the structure of the document | provides an interface which communicate with a db collection|
+
+### Requests types
+|Type| Usage|
+|-----|--------------------------|
+**Get** | requests to get a resource |
+**Post** | requests to create a new data|
+**Delete** | requests to delete data|
+**Put** | requests to update data|
+
+> We can have the same route with different request type
+
+#### Route parameters
+= Variables that can change in a route/:param
