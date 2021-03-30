@@ -102,3 +102,13 @@ Mongoose Schema 	   | Mongoose Model		   |
 
 #### Route parameters
 = Variables that can change in a route/:param
+
+# Express Router
+
+To split our routes into different files and manage them in small group of routes
+
+# MVC
+
+**M**odel, **V**iew, **C**ontroller, it's a way of structuring our code & files and it keeps the code more modular, reusable and easier to read
+
+	VID10 & VID11 tutorials are applied in VID09
